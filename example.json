@@ -11,11 +11,11 @@
       "region": "cn-northwest-1",
       "source_ami_filter": {
         "filters": {
-          "name": "ubuntu/images/hvm-ssd/ubuntu-bionic-18.04-{{user `os_arch`}}-server-*",
           "virtualization-type": "hvm",
+          "name": "ubuntu/images/*ubuntu-xenial-16.04-amd64-server-*",
           "root-device-type": "ebs"
         },
-        "owners": ["837727238323"],
+        "owners": ["099720109477"],
         "most_recent": true
       },
       "instance_type": "t2.micro",
