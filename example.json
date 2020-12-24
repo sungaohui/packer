@@ -11,8 +11,8 @@
       "region": "cn-northwest-1",
       "source_ami_filter": {
         "filters": {
+          "name": "ubuntu/images/hvm-ssd/ubuntu-bionic-18.04-{{user `os_arch`}}-server-*",
           "virtualization-type": "hvm",
-          "name": "ubuntu/images/*ubuntu-xenial-18.04-amd64-server-*",
           "root-device-type": "ebs"
         },
         "owners": ["552340821054"],
